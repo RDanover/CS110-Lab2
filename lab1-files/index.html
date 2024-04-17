@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
     <div class="top" role="navigation">
-    <div class="header">
-      <a class="home">Home</a>
-      <a class="moments">Moments</a>
-      <a class="notifications">Notifications</a>
-      <a class="messages">Messages</a>
-      <!---- maybe adding a skip>
-    </div>  
+      <div class="header">
+        <a class="home">Home</a>
+        <a class="moments">Moments</a>
+        <a class="notifications">Notifications</a>
+        <a class="messages">Messages</a>
+        <!-- maybe adding a skip-->
+      </div>
+    </div>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width = device-width,intial-scale"><!--line is not finished-->
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css"> 
   </head>
   <body>
-    <Header><!-- Main Content-->
-      <div><!-- Profile -->
-        <img><!-- profile-pic -->
-        <img><!-- Banner-->
-        <p><!-- Profile Description -->
-          
-        </p>
-      </div><!-- Tweets-->
-        <div><!-- Tweet -->
-          <img>
-          <div><!--Tweetings-->
-            
+    <div class = "main-content">
+      <div class = "profile">
+        <img class = "profile-image" src = "./images/ratatouille.jpg" alt = "ratatouille profile picture"><!--line is not finished-->
+        <img class = "banner" src = "./images/ratatouille-banner.png" alt = "ratatouille banner picture"><!--line is not finished-->
+        <!-- add tweet, followers, and following counts-->
+      </div>
+      <div class = "tweets">
+        <div class = "tweet">
+          <img src = "./images/ratatouille.jpg" alt = "ratatouille profile pic"><!--line is not finished-->
+          <div class = "tweet-info">
+            <p> <strong class = "account-name">NORM</strong> @remy</p><!--line is not finished-->
+            <p class = "tweet-content"> I am taking this class CS110 and the TA's are so cool!</p>
           </div>
         </div>
       </div>
-      <div><!-- Who to follow -->
-        
+      <div class = "who-to-follow">
+        <div class = "follower-recommendation">
+
+        </div>
       </div>
-    </Header>
-    <!-- TODO: Create HTML elements for Twitter mockup inside body -->
+    </div>
   </body>
 </html>

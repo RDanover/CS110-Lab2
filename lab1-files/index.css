@@ -5,4 +5,62 @@ body {
   background-color: #e6ecf0;
 }
 
-/* TODO: Create CSS for your Twitter Mockup */
+.main-content{
+
+}
+
+.profile{
+
+}
+
+.profile-image{
+
+}
+
+.banner{
+
+}
+
+.tweets{
+  background-color: rgb (255,169,169);
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  gap:2px
+}
+
+.tweet{
+  display:flex;
+  padding-top: 10px;
+  background-color: rgb (255,243,177);
+}
+.tweet-info{
+
+}
+
+.account-name{
+  margin: left 4px;
+  color:black;
+}
+
+.tweet-content{
+
+}
+
+.who-to-follow{
+  background-color: rgb (169,255,169);
+  width: 290px;
+  display:flex;
+  flex-direction: column;
+  gap:2px;
+}
+
+@media (max-width:1200px){
+  .who-to-follow{
+    display:none;
+  }
+}
+
+.follower-recommendation{
+
+}
