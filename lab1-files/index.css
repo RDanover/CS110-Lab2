@@ -6,7 +6,11 @@ body {
 }
 
 .main-content{
-
+  display:flex;
+  width: 90%;
+  justify-content: space-between;
+  max-width: 1190px;
+  margin: 56px auto;
 }
 
 .profile{
@@ -62,5 +66,19 @@ body {
 }
 
 .follower-recommendation{
+
+}
+
+.follow-button{
+  background-color: white;
+  border-color: blue;
+  border-width:3px;
+  border:solid;
+  border: relative 15px;
+  padding: 5px,20px,5px,20px;
+  color: blue;
+  font-weight: solid;
+  font-size: 15px;
+  margin-left: 25%;
 
 }
