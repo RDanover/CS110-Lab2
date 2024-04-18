@@ -11,49 +11,76 @@ body {
   justify-content: space-between;
   max-width: 1190px;
   margin: 56px auto;
+  gap: 5px;
 }
 
 .profile{
-
+  background-color: white;
 }
 
 .profile-image{
-
+  position: absolute;
+  top: 120px;
+  padding-left: 5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .banner{
-
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
 }
 
 .tweets{
   background-color: rgb (255,169,169);
   width: 50%;
+  height: fit-content;
   display:flex;
   flex-direction: column;
   gap:2px
 }
 
 .tweet{
+  background-color: white;
   display:flex;
   padding-top: 10px;
-  background-color: rgb (255,243,177);
+  padding-bottom:10px;
 }
-.tweet-info{
 
+.tweet-profile-pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top:10px;
+}
+
+.tweet-info{
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 10px;
 }
 
 .account-name{
-  margin: left 4px;
+  margin: left 5px;
+  font-size: medium;
   color:black;
 }
 
 .tweet-content{
-
+  margin: left 5px;
+  color:black;
 }
 
 .who-to-follow{
-  background-color: rgb (169,255,169);
-  width: 290px;
+  background-color: white;
+  width: 50%;
   display:flex;
   flex-direction: column;
   gap:2px;
@@ -66,19 +93,7 @@ body {
 }
 
 .follower-recommendation{
-
-}
-
-.follow-button{
-  background-color: white;
-  border-color: blue;
-  border-width:3px;
-  border:solid;
-  border: relative 15px;
-  padding: 5px,20px,5px,20px;
-  color: blue;
-  font-weight: solid;
-  font-size: 15px;
-  margin-left: 25%;
-
+  background-color: grey;
+  width: 75%;
+  height: 100px;
 }
