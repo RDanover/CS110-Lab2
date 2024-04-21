@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav role = "navigation" class="navbar navbar-expand-lg navbar-light bg-white">
       <!-- <a class="navbar-brand" href="#">       </a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
          <p style = "margin:0; padding-left: 75px; color:grey; font-size:small; ">@remy</p>
          <!-- add tweet, followers, and following counts-->
       </div>
-      <div class = "tweets">
+      <div role = "main" class = "tweets">
         <div class = "tweet">
           <img class = "tweet-profile-pic" src = "./images/ratatouille.jpg" alt = "ratatouille profile pic" >
           <div class = "tweet-info">
@@ -96,14 +96,40 @@
         </div>
       </div>
       <div class = "who-to-follow">
-        <div class = "follower-recommendation">
-
+        <p><strong> Who To Follow</strong></p>
+        <div class = "tweet">
+          <img class = "tweet-profile-pic" style = "margin-top: 10px;" src = "./images/ratatouille.jpg" alt = "ratatouille profile pic" >
+          <div class = "tweet-info">
+            <p style = "color:grey; font-size:small;"> <strong class = "account-name">CS 110 TA</strong> @rcs</p>
+            <button style="
+            background-color: white;  /* Light blue background for the button */
+            color: #1DA1F2;  /* White font for the button text */
+            border: 1px solid #1DA1F2;  /* 3px light blue border */
+            border-radius: 15px;  /* Rounded corners with 15px radius */
+            padding: 5px 20px;  /* Padding (top, right, bottom, left) */
+            font-weight: bold;  /* Bold font */
+            font-size: 15px;  /* Font size */
+            ">
+            Follow
+            </button>
+          </div>
         </div>
-        <div class = "follower-recommendation">
-
-        </div>
-        <div class = "follower-recommendation">
-
+        <div class = "tweet">
+          <img class = "tweet-profile-pic" style = "margin-top: 10px;" src = "./images/linguini.png" alt = "ratatouille profile pic" >
+          <div class = "tweet-info">
+            <p style = "color:grey; font-size:small;"> <strong class = "account-name">Linguini</strong> @linguini</p>
+            <button style="
+            background-color: white;  
+            color: #1DA1F2;
+            border: 1px solid #1DA1F2;
+            border-radius: 15px;  /* Rounded corners with 15px radius */
+            padding: 5px 20px;  /* Padding (top, right, bottom, left) */
+            font-weight: bold;  /* Bold font */
+            font-size: 15px;  /* Font size */
+            ">
+            Follow
+            </button>
+          </div>
         </div>
       </div>
     </div>
