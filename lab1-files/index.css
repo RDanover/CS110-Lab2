@@ -96,3 +96,39 @@ body {
   width: 75%;
   height: 100px;
 }
+
+.navbar {
+  display: flex;             /* Use flexbox for the navbar */
+  justify-content: space-between;  /* Space items across the width */
+  align-items: center;       /* Align items vertically */
+}
+
+.nav-link {
+  color: #1DA1F2; /* Default color for navbar links */
+  transition: color 0.3s; /* Smooth transition when changing color */
+}
+
+.nav-link:hover {
+  color: #1DA1F2; /* Change to light blue on hover */
+}
+
+.navbar-center {
+  flex-grow: 1;              /* Allow this div to grow and occupy central space */
+  display: flex;             
+  justify-content: center;   /* Center content within this div */
+}
+
+.btn-custom {
+  background-color: rgb(30, 168, 214);  /* Light blue background */
+  color: white;                        /* White text color */
+  border: 3px solid rgb(2, 248, 252);  /* Blue border with 3px width */
+  border-radius: 15px;                 /* Rounded corners */
+  padding: 10px 30px;                  /* Padding for rounded rectangle */
+  font-weight: bold;                   /* Bold font weight */
+  font-size: 15px;                     /* Font size */
+  margin-left: 25%;                    /* Margin from the left edge */
+}
+
+.btn-custom:hover {
+  background-color: rgb(50, 190, 235); /* Darker shade on hover */
+}
